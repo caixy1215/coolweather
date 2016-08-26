@@ -10,19 +10,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class CoolWeatherOpenHelper  extends SQLiteOpenHelper{
     //省份建表
     public static final String CREATE_PROVINCE = "create table Province ("
-            + "id integer primary key autoincreacment,"
+            + "id integer primary key autoincrement,"
             + "province_name text,"
             + "province_code text)";
 
     //市建表
     public static final String CREATE_CITY = "create table City ("
-            + "id integer primary key autoincreacment,"
+            + "id integer primary key autoincrement,"
             + "city_name text,"
             + "city_code text,"
             + "privince_id integer)";
     //县建表
     public static final String CREATE_COUNTRY = "create table country ("
-            + "id integer primary key autoincreacment,"
+            + "id integer primary key autoincrement,"
             + "country_name text,"
             + "country_code text,"
             + "city_id integer)";

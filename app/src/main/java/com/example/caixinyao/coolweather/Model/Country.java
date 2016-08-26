@@ -33,11 +33,11 @@ public class Country {
         countryCode = code;
     }
 
-    public int getProvinceId() {
+    public int getCityId() {
         return cityId;
     }
 
-    public void setProvinceId(int id ) {
+    public void setCityId(int id ) {
         cityId = id;
     }
 }
